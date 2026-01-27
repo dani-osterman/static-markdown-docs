@@ -1,0 +1,19 @@
+# Dependencies
+/node_modules
+package-lock.json
+
+# Next.js
+/.next/
+/out/
+
+# Typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# macOS metadata files
+.DS_Store
+**/.DS_Store
+
+# VsCode settings
+/.vscode/
+

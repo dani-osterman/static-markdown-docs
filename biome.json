@@ -1,0 +1,30 @@
+{
+	"$schema": "https://biomejs.dev/schemas/latest/schema.json",
+	"files": {
+		"ignoreUnknown": true,
+		"includes": [
+			"app/**",
+			"content/**",
+			"styles/**",
+			"tailwind.config.js",
+			"next.config.ts",
+			"postcss.config.mjs",
+			"tsconfig.json",
+			"biome.json"
+		]
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"recommended": true
+		}
+	},
+	"css": {
+		"parser": {
+			"tailwindDirectives": true
+		}
+	},
+	"formatter": {
+		"enabled": true
+	}
+}
